@@ -2,30 +2,30 @@ import { mapValues as _mapValues } from 'lodash'
 import { IPHONEORDER_CONFIG } from './interface'
 export const iPhoneModels = {
     iPhone17Pro: [
-        { color: { value: 'black', text: '银色' }, capacity: '256GB', model: 'MG904CH/A' },
-        { color: { value: 'black', text: '银色' }, capacity: '512GB', model: 'MG904CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '256GB', model: 'MG8T4CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '512GB', model: 'MG8W4CH/A' },
         { color: { value: 'black', text: '银色' }, capacity: '1TB', model: 'MG904CH/A' },
 
-        { color: { value: 'black', text: '星宇橙色' }, capacity: '256GB', model: 'MG914CH/A' },
-        { color: { value: 'black', text: '星宇橙色' }, capacity: '512GB', model: 'MG914CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '256GB', model: 'MG8U4CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '512GB', model: 'MG8X4CH/A' },
         { color: { value: 'black', text: '星宇橙色' }, capacity: '1TB', model: 'MG914CH/A' },
 
-        { color: { value: 'black', text: '深蓝色' }, capacity: '256GB', model: 'MG924CH/A' },
-        { color: { value: 'black', text: '深蓝色' }, capacity: '512GB', model: 'MG924CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '256GB', model: 'MG8V4CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '512GB', model: 'MG8Y4CH/A' },
         { color: { value: 'black', text: '深蓝色' }, capacity: '1TB', model: 'MG924CH/A' },
     ],
     iPhone17ProMax: [
         { color: { value: 'black', text: '银色' }, capacity: '256GB', model: 'MG034CH/A' },
-        { color: { value: 'black', text: '银色' }, capacity: '512GB', model: 'MG034CH/A' },
-        { color: { value: 'black', text: '银色' }, capacity: '1TB', model: 'MG034CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '512GB', model: 'MG064CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '1TB', model: 'MG094CH/A' },
 
         { color: { value: 'black', text: '星宇橙色' }, capacity: '256GB', model: 'MG044CH/A' },
-        { color: { value: 'black', text: '星宇橙色' }, capacity: '512GB', model: 'MG044CH/A' },
-        { color: { value: 'black', text: '星宇橙色' }, capacity: '1TB', model: 'MG044CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '512GB', model: 'MG074CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '1TB', model: 'MG0A4CH/A' },
 
         { color: { value: 'black', text: '深蓝色' }, capacity: '256GB', model: 'MG054CH/A' },
-        { color: { value: 'black', text: '深蓝色' }, capacity: '512GB', model: 'MG054CH/A' },
-        { color: { value: 'black', text: '深蓝色' }, capacity: '1TB', model: 'MG054CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '512GB', model: 'MG084CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '1TB', model: 'MG0E4CH/A' },
     ],
     iPhone16Pro: [
         { color: { value: 'black', text: '黑色钛金属' }, capacity: '128GB', model: 'MYLN3CH/A' },
