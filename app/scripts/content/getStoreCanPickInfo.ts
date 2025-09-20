@@ -100,7 +100,7 @@ const getStoreCanPickInfo = async ({
                 if (resText?.indexOf(`503 Service Temporarily Unavailable`) > -1) {
                     console.log(`********** and wait 1 min **********`)
                     // 换一个型号调用，让apple认为是正常请求
-                    const iPhoneProAll = iPhoneModels.iPhone16Pro
+                    const iPhoneProAll = iPhoneModels.iPhone17Pro
                     const randomPartNumberiPhonePro =
                         iPhoneProAll[Math.floor(Math.random() * iPhoneProAll.length)]?.model
                     await getStoreCanPickInfo({
@@ -152,7 +152,7 @@ const getStoreCanPickInfo = async ({
             console.log(`********** GMfetch failed, stepWait add 1 sec, and wait 1 min **********`)
             iPhoneOrderConfig.stepWait = iPhoneOrderConfig.stepWait + 1
             // 换一个型号调用，让apple认为是正常请求
-            const iPhoneProAll = iPhoneModels.iPhone16Pro
+            const iPhoneProAll = iPhoneModels.iPhone17Pro
             const randomPartNumberiPhonePro = iPhoneProAll[Math.floor(Math.random() * iPhoneProAll.length)]?.model
             await getStoreCanPickInfo({
                 x_aos_stk,
