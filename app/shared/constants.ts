@@ -1,6 +1,32 @@
 import { mapValues as _mapValues } from 'lodash'
 import { IPHONEORDER_CONFIG } from './interface'
 export const iPhoneModels = {
+    iPhone17Pro: [
+        { color: { value: 'black', text: '银色' }, capacity: '256GB', model: 'MG904CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '512GB', model: 'MG904CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '1TB', model: 'MG904CH/A' },
+
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '256GB', model: 'MG914CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '512GB', model: 'MG914CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '1TB', model: 'MG914CH/A' },
+
+        { color: { value: 'black', text: '深蓝色' }, capacity: '256GB', model: 'MG924CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '512GB', model: 'MG924CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '1TB', model: 'MG924CH/A' },
+    ],
+    iPhone17ProMax: [
+        { color: { value: 'black', text: '银色' }, capacity: '256GB', model: 'MG034CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '512GB', model: 'MG034CH/A' },
+        { color: { value: 'black', text: '银色' }, capacity: '1TB', model: 'MG034CH/A' },
+
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '256GB', model: 'MG044CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '512GB', model: 'MG044CH/A' },
+        { color: { value: 'black', text: '星宇橙色' }, capacity: '1TB', model: 'MG044CH/A' },
+
+        { color: { value: 'black', text: '深蓝色' }, capacity: '256GB', model: 'MG054CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '512GB', model: 'MG054CH/A' },
+        { color: { value: 'black', text: '深蓝色' }, capacity: '1TB', model: 'MG054CH/A' },
+    ],
     iPhone16Pro: [
         { color: { value: 'black', text: '黑色钛金属' }, capacity: '128GB', model: 'MYLN3CH/A' },
         { color: { value: 'black', text: '黑色钛金属' }, capacity: '256GB', model: 'MYLT3CH/A' },
